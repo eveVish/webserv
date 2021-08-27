@@ -12,7 +12,8 @@ Curl-команды:
 curl -i -H 'Content-Type: Application/json' -X POST http://127.0.0.1:5000/add
 если консоль выведет сообщение "Product successfully added" - товар успешно добавлен
 
-Поиск товара по ID: 
+Поиск товара по ID:
+
 curl -i -H 'Content-Type: Application/json' -X POST http://127.0.0.1:5000/int:id, где int:id - натуральное число (например 3, 5, 7)
 
 curl -i -H 'Content-Type: Application/json' -X POST http://127.0.0.1:5000/sort - выведет информацию обо всех имеющихся в базе данных товарах.
