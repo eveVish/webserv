@@ -19,5 +19,3 @@ curl -i -H 'Content-Type: Application/json' -X POST http://127.0.0.1:5000/int:id
 curl -i -H 'Content-Type: Application/json' -X POST http://127.0.0.1:5000/sort - выведет информацию обо всех имеющихся в базе данных товарах.
 
 curl -i -H 'Content-Type: Application/json' -X POST http://127.0.0.1:5000/sort/name - вернет перечень товаров отсортированных по названиям в алфавитном порядке.
-
-curl -i -H 'Content-Type: Application/json' -X POST http://127.0.0.1:5000/sort/param - вернет перечень всех товаров по ключевому слову. 
